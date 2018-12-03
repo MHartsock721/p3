@@ -1,0 +1,29 @@
+.navione{
+    display:flex;
+    justify-content: space-between;
+    width:30vw;
+}
+
+.navitwo{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+h1{
+    color: salmon;
+}
+
+
+h2{
+    color: salmon;
+}
+
+
+h3{
+    color: salmon;
+}
+
+.tp{
+    width: 35vw;
+}
