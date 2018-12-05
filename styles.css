@@ -9,10 +9,12 @@
 a{
     color: grey;
     text-decoration: none; 
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 16pt;
 }
 #oneup{
     grid-column-start: 2;
-    width: 500px;
+    width: 600px;
 }
 .navione{
     display:flex;
@@ -25,7 +27,6 @@ a{
 .navitwo{
     display: flex;
     justify-content: space-between;
-    width: 25vw;
     color: grey;
     text-decoration: none;
     grid-column-end: 7
@@ -63,6 +64,7 @@ h2{
     color: #F15C6A;
     font-size: 50pt;
     width: 800px;
+    font-family: bodonibold;
 }
 
 
@@ -157,6 +159,7 @@ p{
 
 #scottcalvin{
     background-color: #D4E4E8;
+    opacity: 80%;
 }
 
 .ec{
@@ -195,6 +198,24 @@ p{
 
 #cert{
     background-color: #D4E4E8;
+    opacity: 80%;
+}
+
+#meet{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    padding: 5px;
+    grid-row-start: 72;
+    width:100vw;
+    height: 600px;
+}
+
+#nutz{
+    width:700px;
+    grid-column-start: 
 }
 
 #b{
@@ -235,30 +256,75 @@ p{
 
 
 .mt{
-    grid-column-start: 5;
-    grid-row-start: 72;
+    grid-column-start: 2;
+    grid-column-end: 10;
 }
 
 .mindy{
-    grid-column-start: 8;
+    grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 77;
-    background-color: #D4E4E8;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
+}
 
+#m{
+    background-color: #D4E4E8;
+    grid-column-start: 6;
+    width:700px;
+    margin:30px;
+    opacity: 80%;
+    padding:30px;
 }
 
 .sonja{
     grid-row-start: 86;
     grid-column-start: 1;
-    grid-column-end: 7;
-    background-color: #D4E4E8;
+    grid-column-end: 15;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
 }
 
+#s{
+    background-color: #D4E4E8;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width:700px;
+    margin:30px;
+    opacity: 80%;
+    padding:30px;
+}
 .ginelle{
     grid-row-start: 94;
-    grid-column-start: 8;
-    background-color: #D4E4E8;
+    grid-column-start: 1;
     grid-column-end: 15;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
+}
+
+#g{
+    background-color: #D4E4E8;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width:700px;
+    margin:30px;
+    opacity: 80%;
+    padding:30px;
 }
 
 .ginelleone{
@@ -268,8 +334,25 @@ p{
 .travis{
     grid-row-start: 102;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 15;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
+}
+
+#tr{
     background-color: #D4E4E8;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width:700px;
+    margin:30px;
+    opacity: 80%;
+    padding:30px;
 }
 
 .travisone{
@@ -278,22 +361,55 @@ p{
 
 .colin{
     grid-row-start: 110;
-    grid-column-start: 8;
-    background-color: #D4E4E8;
+    grid-column-start: 1;
     grid-column-end: 15;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
 }
 
 .colinone{
     width:400px;
 }
 
+#c{
+    background-color: #D4E4E8;
+    width:700px;
+    margin:30px;
+    opacity: 80%;
+    padding:30px;
+}
+
 .tyreil{
     grid-row-start: 118;
     grid-column-start: 1;
-    background-color: #D4E4E8;
-    grid-column-end: 7;
+    grid-column-end: 15;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 5px;
+    width:100vw;
+    height: 600px;
 }
 
+#ty{
+    background-color: #D4E4E8;
+    margin:30px;
+    width:700px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    opacity: 80%;
+    padding:30px;
+}
+
+.tyrielo{
+    margin-left: 50px;
+}
 .courses{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -342,31 +458,38 @@ p{
     bottom:50px;
 }
 
-.picm{
-    width: 50vw;
+#mpic{
+    width: 30vw;
     filter: grayscale(100%);
     grid-column-start: 1;
-    float: left;
 }
 
-.picg{
-    width: 50vw;
+#spic{
+    width: 30vw;
+    filter:grayscale(100%);
+    grid-column-start: 7;
+}
+
+#gpic{
+    width: 30vw;
     filter: grayscale(100%);
 }
 
-.pict{
-    width: 50vw;
+#trpic{
+    width: 30vw;
+    filter: grayscale(100%);
+    grid-column-start: 7;
+}
+
+#cpic{
+    width: 30vw;
     filter: grayscale(100%);
 }
 
-.picc{
-    width: 50vw;
+#typic{
+    width: 30vw;
     filter: grayscale(100%);
-}
-
-.picty{
-    width: 50vw;
-    filter: grayscale(100%);
+    grid-column-start: 7;
 }
 
 #class{
@@ -402,5 +525,5 @@ p{
 
 @font-face {
     font-family: bodonibold;
-    src: url(bodoni/BodoniSvtyTwoITCTT-Bold.woff) format("woff");
+    src: url(bodoni/BodoniSvtyTwoITCTT-Book.woff) format("woff");
     }
