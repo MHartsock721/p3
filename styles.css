@@ -1,29 +1,406 @@
+#all{
+    display:grid;
+    grid-template-columns: repeat(15, 7%);
+	grid-template-rows: repeat(135, 1fr);
+    height: 100vh;
+    width: 100vw;
+}
+
+a{
+    color: grey;
+    text-decoration: none; 
+}
+#oneup{
+    grid-column-start: 2;
+    width: 500px;
+}
 .navione{
     display:flex;
     justify-content: space-between;
-    width:30vw;
+    grid-column-end: 7;
+    color: grey;
+    text-decoration: none;
 }
 
 .navitwo{
     display: flex;
     justify-content: space-between;
     width: 25vw;
+    color: grey;
+    text-decoration: none;
+    grid-column-end: 7
 }
 
+.theprogram {
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(15, 1fr);
+   grid-template-rows: repeat(7, 1fr);
+   padding: 5px;
+   grid-row-start: 4;
+   width:100vw;
+}
+
+#studmuffin{
+   width: 700px;
+   grid-column-start: 1;
+   grid-column-end: 12;
+   grid-row-start: 1;
+   grid-row-end: 7;
+}
+
+
 h1{
-    color: salmon;
+    color: #F15C6A;
+    font-size: 80pt;
+    width: 600px;
+    font-family: bodonibold;
+    font-weight:lighter;
 }
 
 
 h2{
-    color: salmon;
+    color: #F15C6A;
+    font-size: 50pt;
+    width: 800px;
 }
 
 
 h3{
-    color: salmon;
+    color: #F15C6A;
+    font-size:40pt;
+    font-family: sans-serif;
+    width: 600px;
+}
+
+p{
+    color: grey;
 }
 
 .tp{
-    width: 35vw;
+    grid-column-start: 20;
+    grid-row-start: 1;
+    grid-row-end: 7;
 }
+
+.what{
+    grid-row-start: 10;
+    grid-column-start: 3;
+    grid-column-end: 13;
+}
+
+#w{
+    width:350px;
+}
+
+#wha{
+    width:850px;
+    column-count: 2;
+}
+
+#ls{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-row-start: 20;
+    padding: 5px;
+    width:100vw;
+}
+
+#boiii{
+    width: 700px;
+    grid-column-start: 8;
+    grid-column-end:15;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.likewhatyasee{
+    width: 45vw;
+    grid-column-start: 3;
+    grid-column-end:7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.orc{
+    grid-row-start: 22;
+    grid-column-start: 3;
+}
+
+#killme{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding: 5px;
+    grid-row-start: 29;
+    width:100vw;
+}
+
+#santa{
+    width: 700px;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.sc{
+    width: 777px;
+    height: 544px;
+    grid-column-start: 20;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+#scottcalvin{
+    background-color: #D4E4E8;
+}
+
+.ec{
+    grid-row-start: 37;
+    grid-column-start: 3;
+}
+
+#use{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    padding: 5px;
+    grid-row-start: 39;
+    width:100vw;
+    height: 600px;
+}
+
+#help{
+    width: 700px;
+    grid-column-start: 1;
+    grid-column-end:12;
+    grid-row-start:7;
+    grid-row-end: 12;
+}
+
+.ux{
+    grid-row-start: 1;
+    grid-row-end: 10;
+    width: 777px;
+    height: 544px;
+    grid-column-start: 7;
+    grid-column-end: 15;
+}
+
+#cert{
+    background-color: #D4E4E8;
+}
+
+#b{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-row-start: 51;
+    padding: 5px;
+    width:100vw;
+    height:750px;
+}
+
+.bfa{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    width: 700px;
+}
+
+#deez{
+    width: 700px;
+    margin-top:200px;
+    grid-column-start: 12;
+    grid-column-end:;
+    grid-row-start:1;
+    grid-row-end: 12;
+}
+
+.bofa{
+    width: 350px;
+}
+
+.brc{
+    grid-row-start: 59;
+    grid-column-start: 3;
+}
+
+
+.mt{
+    grid-column-start: 5;
+    grid-row-start: 72;
+}
+
+.mindy{
+    grid-column-start: 8;
+    grid-column-end: 15;
+    grid-row-start: 77;
+    background-color: #D4E4E8;
+
+}
+
+.sonja{
+    grid-row-start: 86;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #D4E4E8;
+}
+
+.ginelle{
+    grid-row-start: 94;
+    grid-column-start: 8;
+    background-color: #D4E4E8;
+    grid-column-end: 15;
+}
+
+.ginelleone{
+    width: 400px;
+}
+
+.travis{
+    grid-row-start: 102;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #D4E4E8;
+}
+
+.travisone{
+    width: 400px;
+}
+
+.colin{
+    grid-row-start: 110;
+    grid-column-start: 8;
+    background-color: #D4E4E8;
+    grid-column-end: 15;
+}
+
+.colinone{
+    width:400px;
+}
+
+.tyreil{
+    grid-row-start: 118;
+    grid-column-start: 1;
+    background-color: #D4E4E8;
+    grid-column-end: 7;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80vw;
+}
+
+.footer{
+    grid-row-start: 135;
+    background-color:#A6B8BD;
+    width:100vw;
+    height: 300px;
+    position: relative;
+    top:100px;
+}
+
+#logo{
+    width:267px;
+    height:165px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#fb{
+    width:40px;
+    height:40px;
+    position: relative;
+    left:57vw;
+    bottom:50px;
+}
+
+#insta{
+    width:40px;
+    height:40px;
+    grid-column-start: 13;
+    position: relative;
+    left: 60vw;
+    bottom:50px;
+}
+
+.col{
+    grid-row-start: 132;
+    grid-column-start: 12;
+    position: relative;
+    left: 80vw;
+    bottom:50px;
+}
+
+.picm{
+    width: 50vw;
+    filter: grayscale(100%);
+    grid-column-start: 1;
+    float: left;
+}
+
+.picg{
+    width: 50vw;
+    filter: grayscale(100%);
+}
+
+.pict{
+    width: 50vw;
+    filter: grayscale(100%);
+}
+
+.picc{
+    width: 50vw;
+    filter: grayscale(100%);
+}
+
+.picty{
+    width: 50vw;
+    filter: grayscale(100%);
+}
+
+#class{
+    height:687px;
+    width: 700px;
+    filter:grayscale(100%);
+    opacity: 70%;
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+#gray{
+    width: 687px;
+    height: 687px;
+    background-image: url("https://education.illinois.edu/images/default-source/news/lab_square-2.jpg");
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    opacity:(70%);
+    position: relative;
+}
+
+button{
+    width: 247px;
+    height: 66px;
+    background-color:#A6B8BD;
+    font-size: 24pt;
+    color: white;
+}
+
+p{
+    width: 400px;
+}
+
+@font-face {
+    font-family: bodonibold;
+    src: url(bodoni/BodoniSvtyTwoITCTT-Bold.woff) format("woff");
+    }
